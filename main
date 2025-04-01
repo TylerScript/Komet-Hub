@@ -1,5 +1,6 @@
-local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/TylerScript/Komet-Hub/refs/heads/main/script-all-game"))()
-
+local Games = {
+  [101961290521259] = "https://raw.githubusercontent.com/TylerScript/script/refs/heads/main/Obby%20for%20UGC%20Hair", --Obby for UGC [MEME] Hair
+}
 for PlaceID, Execute in pairs(Games) do
     if PlaceID == game.PlaceId then
         loadstring(game:HttpGet(Execute))()
