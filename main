@@ -1,5 +1,6 @@
 local Games = {
   [101961290521259] = "https://raw.githubusercontent.com/TylerScript/script/refs/heads/main/Obby%20for%20UGC%20Hair", --Obby for UGC [MEME] Hair
+  [74260430392611] = " "
 }
 for PlaceID, Execute in pairs(Games) do
     if PlaceID == game.PlaceId then
