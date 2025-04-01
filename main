@@ -1,6 +1,6 @@
 local Games = {
   [101961290521259] = "https://raw.githubusercontent.com/TylerScript/script/refs/heads/main/Obby%20for%20UGC%20Hair", --Obby for UGC [MEME] Hair
-  [74260430392611] = "https://raw.githubusercontent.com/TylerScript/Komet-Hub/refs/heads/main/Rebirth%20Champions"
+  [74260430392611] = "https://raw.githubusercontent.com/TylerScript/Komet-Hub/refs/heads/main/Rebirth%20Champions" ---Rebirth Champions Ultimate
 }
 for PlaceID, Execute in pairs(Games) do
     if PlaceID == game.PlaceId then
