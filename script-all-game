@@ -1,5 +1,5 @@
 local Games = {
-  [101961290521259] = "", --Obby for UGC [MEME] Hair
+  [101961290521259] = "https://raw.githubusercontent.com/TylerScript/script/refs/heads/main/Obby%20for%20UGC%20Hair", --Obby for UGC [MEME] Hair
 }
 
 return Games
