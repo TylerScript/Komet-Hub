@@ -1,4 +1,4 @@
-local Games = loadstring(game:HttpGet(""))()
+local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/TylerScript/Komet-Hub/refs/heads/main/script-all-game"))()
 
 for PlaceID, Execute in pairs(Games) do
     if PlaceID == game.PlaceId then
